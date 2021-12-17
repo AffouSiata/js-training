@@ -10,8 +10,21 @@
  * https://github.com/nan-academy/refs/blob/master/js-training/methods.md#string---transform
  */
 
-//* Begin of tests
+// Your code :
+
+function cutFirst(str1){
+    var dd = str1.slice(2,str1.length());
+    return dd ;   
+}
+function cutLast(str1){
+    var = str1.subst
+} 
+    /*var resul =str.substring(0,1);
+    var mm = resul.toUpperCase()+str.substring(1,str.lenght).toLowerCase();*/
+
+//* Begin of test
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+
+assert.strictEqual('You must write your own tests')
 // End of tests */

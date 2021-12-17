@@ -6,10 +6,21 @@
  * and in lowercase for the rest of the string
  *
  */
+// Your code :
+function capitalize(str){
+    var resul =str.substring(0,1);
+    var mm = resul.toUpperCase()+str.substring(1,str.lenght).toLowerCase();
+    return mm;
+}
+
+
+
+
 
 
 //* Begin of tests
-const assert = require('assert')
+const assert = require('assert');
+const { stringify } = require('querystring');
 
 assert.strictEqual(typeof capitalize, "function")
 assert.strictEqual(capitalize('str'), 'Str')

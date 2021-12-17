@@ -8,6 +8,13 @@
 
 // Your code :
 
+function add (nbre1,nbre2){
+    var s = nbre1+ nbre2;
+    return s;
+}
+add(2,4);
+
+
 //* Begin of tests
 const assert = require('assert')
 const rand = Math.random()
