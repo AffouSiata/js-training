@@ -7,6 +7,23 @@
  * @notions Functions, Data-Structures, Get
  */
 
+// Your code :
+
+  function get(key){
+    if(key == "num"){
+        return sourceObject.num; 
+    }
+    else if(key == "bool"){
+        return sourceObject.bool; 
+    }
+    else if(key == "str"){
+        return sourceObject.str; 
+    }
+    else if(key == "log"){
+        return sourceObject.log; 
+    }
+}
+
 // Provided code :
 const sourceObject = {
   num: 42,

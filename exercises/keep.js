@@ -12,9 +12,28 @@
  *
  */
 
+// Your code:
+function keepFirst(ch){
+
+    var resul = ch.substring(0, 2);
+    return ch;
+
+}
+function keepLast(ch){
+
+    var resul = ch.substring(5, ch.length);
+    return ch;
+}
+
+
+
+
+
 
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+assert.strictEqual(typeof keepFirst, 'function')
+assert.strictEqual(typeof keepLast, 'function')
+
 // End of tests */

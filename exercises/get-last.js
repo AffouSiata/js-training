@@ -9,6 +9,10 @@
 
 // Your code :
 
+function getLast(arg=[ x,y]){
+    return arg[arg.length-1];
+
+}
 //* Begin of tests
 const assert = require('assert')
 

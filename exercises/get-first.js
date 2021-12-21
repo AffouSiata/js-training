@@ -9,6 +9,12 @@
 
 // Your code :
 
+function getFirst([arg]){
+    return arg;
+}
+
+
+
 //* Begin of tests
 const assert = require('assert')
 
