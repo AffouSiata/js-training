@@ -8,6 +8,17 @@
  *
  */
 
+// Your code :
+
+function repeat(x,y){
+    var a = [];
+    while(a.length < y) {
+        a.push(x)
+    } 
+    
+    return a.join('');
+} 
+
 //* Begin of tests
 const assert = require('assert')
 

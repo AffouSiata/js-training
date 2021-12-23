@@ -5,7 +5,11 @@
  * and return a string of all the element separated by a space
  *
  */
+// Your code :
+function sentence(arg){
 
+    return arg.join(" ");
+}
 
 //* Begin of tests
 const assert = require('assert')

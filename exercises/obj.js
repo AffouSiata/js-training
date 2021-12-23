@@ -9,6 +9,10 @@
 
 // Your code :
 
+let obj = {
+    text:"pardon",
+}
+return obj;
 //* Begin of tests
 const assert = require('assert')
 

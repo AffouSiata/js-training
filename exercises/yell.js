@@ -5,10 +5,16 @@
  * and return the same string in upper case
  *
  */
+// Your code :
 
+function yell(arg){
+    return arg.toUpperCase();
 
+}
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+
+assert.strictEqual(typeof yell, 'function')
+assert.strictEqual(yell('str'), 'STR')
 // End of tests */
